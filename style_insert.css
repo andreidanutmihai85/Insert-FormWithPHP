@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: rgb(230, 187, 250);
+  
+}
+
+#date_dt, #event_dt, #name, #email,#message, #services{
+    background-color: rgb(245, 197, 203);
+    border: 2px solid rgb(25, 107, 1);
+    border-radius: 10px;
+}
+
+
+.button-1 {
+  background-color: #2724f7;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #1e06a5;
+}
+
+.tabel{
+  background-color: red;
+}
